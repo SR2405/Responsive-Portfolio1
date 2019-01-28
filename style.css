@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/ep_naturalblack.png)
+}
+
+.container{
+    widows: 960px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.navbar-fixed-bottom{
+    clear: both;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.titles{
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 7px;
+    padding:10px;
+}
+
+.navbar-brand{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+label{
+    color: darkslategray;
+}
+
+.container.mx-auto.bg-light{
+    height:50%;
+}
+
+.text-block{
+    position:absolute;
+    bottom: 20px;
+    right:20px;
+    background-color: black;
+    color: #aaaaaa;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+/* .navbar-fixed-bottom{
+    position: fixed;
+
+} */
