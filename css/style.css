@@ -198,19 +198,32 @@ input[type=text]{
 
      }
       @media screen and (max-width: 980px){
-        .main-content {
+        body {
             width: 900px;
+        }
+
+        .top-header{
+            width: 900px;
+
         }
       }
 
       @media screen and (max-width:768px) {
-        .main-content {
-            width: 600px;
+        body {
+            width: 700px;
+            
         }
+        .top-header{
+            width: 700px;
 
+        }
       }
       @media screen and (max-width: 640px) {
-        .main-content {
+         body{
+             width: 600px;
+         }
+         .top-header{
             width: 400px;
+
         }
-      }
+    }
